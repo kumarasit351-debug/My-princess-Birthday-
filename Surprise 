@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Princess</title>
+<style>
+body{
+background:linear-gradient(pink,white);
+text-align:center;
+font-family:Arial;
+padding-top:100px;
+}
+h1{
+font-size:60px;
+color:red;
+}
+p{
+font-size:28px;
+}
+button{
+padding:15px 30px;
+font-size:20px;
+background:red;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday Princess 🎉</h1>
+
+<p>You are the most special person in my life ❤️</p>
+
+<p>Click the button for a surprise</p>
+
+<button onclick="showMessage()">Click Me</button>
+
+<script>
+function showMessage(){
+alert("I made this website just for you ❤️ Happy Birthday Princess 🎂");
+}
+</script>
+
+</body>
+</html>
